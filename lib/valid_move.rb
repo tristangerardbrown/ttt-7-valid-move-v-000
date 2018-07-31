@@ -1,9 +1,10 @@
+
+input = board[index]
 def valid_move?(board,index)
-  input = board[index]
   if board[index] >= 0 && <= 8
     return true
 end
-end 
+end
 
 
 
